@@ -1,0 +1,6 @@
+@NoobGGApp.API_HostAddress = http://localhost:5075
+
+GET {{NoobGGApp.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
