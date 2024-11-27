@@ -1,5 +1,4 @@
-﻿using System;
-using MediatR;
+﻿using MediatR;
 using Microsoft.EntityFrameworkCore;
 using NoobGGApp.Application.Common.Interfaces;
 
@@ -29,7 +28,7 @@ public sealed class GetAllGameRegionsQueryHandler : IRequestHandler<GetAllGameRe
 
         return query
         .AsNoTracking()
-        .Select(x => GameRegionGetAllDto.Create(x))
+        .Select(x => new GameRegionGetAllDto(x.Id, x.Name, x.Code, x.GameId))
         .ToListAsync(cancellationToken);
     }
 

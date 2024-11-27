@@ -9,14 +9,14 @@ public sealed record GameRegionGetAllDto
     public string Code { get; set; }
     public long GameId { get; set; }
 
-    public static GameRegionGetAllDto Create(GameRegion gameRegion)
+    public static GameRegionGetAllDto Create(long id, string name, string code, long gameId)
     {
         return new GameRegionGetAllDto
         {
-            Id = gameRegion.Id,
-            Name = gameRegion.Name,
-            Code = gameRegion.Code,
-            GameId = gameRegion.GameId,
+            Id = id,
+            Name = name,
+            Code = code,
+            GameId = gameId,
         };
     }
 
