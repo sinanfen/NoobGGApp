@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoobGGApp.Application", "sr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoobGGApp.Infrastructure", "src\NoobGGApp.Infrastructure\NoobGGApp.Infrastructure.csproj", "{5701C0FC-F8A0-4AFA-9D30-C5B7FF07A67E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoobGGApp.API", "src\NoobGGApp.API\NoobGGApp.API.csproj", "{07DECFC2-7BD5-4EF1-885D-14AA9DACA495}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{5701C0FC-F8A0-4AFA-9D30-C5B7FF07A67E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5701C0FC-F8A0-4AFA-9D30-C5B7FF07A67E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5701C0FC-F8A0-4AFA-9D30-C5B7FF07A67E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07DECFC2-7BD5-4EF1-885D-14AA9DACA495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07DECFC2-7BD5-4EF1-885D-14AA9DACA495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07DECFC2-7BD5-4EF1-885D-14AA9DACA495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07DECFC2-7BD5-4EF1-885D-14AA9DACA495}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{31D3315E-E36D-44E2-8D52-58FD68E150A7} = {CDF13117-9971-4237-92F3-54CFC9188D7E}
 		{CDAF9E94-681D-4FDA-8049-92AAA56811AC} = {CDF13117-9971-4237-92F3-54CFC9188D7E}
 		{5701C0FC-F8A0-4AFA-9D30-C5B7FF07A67E} = {CDF13117-9971-4237-92F3-54CFC9188D7E}
+		{07DECFC2-7BD5-4EF1-885D-14AA9DACA495} = {CDF13117-9971-4237-92F3-54CFC9188D7E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {13E1E48C-AEFF-4D21-8428-5C32FE3F958F}
